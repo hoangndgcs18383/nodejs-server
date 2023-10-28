@@ -1,9 +1,8 @@
-const mongoose = require('mongoose');
+class Inventory {
+    constructor(id, userId){
+        this.id = id,
+        this.userId = userId
+    }
+}
 
-const inventorySchema = mongoose.Schema({
-    _id: mongoose.Schema.Types.ObjectId,
-    userId: {type: mongoose.Schema.Types.ObjectId, ref: 'User', required : true},
-
-});
-
-module.exports = mongoose.model('Inventory', inventorySchema)
+module.exports = Inventory

@@ -1,6 +1,6 @@
 const Inventory = require('../models/inventory');
 const User = require('../models/user')
-const mongoose = require('mongoose');
+const { v4: uuidv4 } = require('uuid');
 
 exports.inventories_get_all = (req, res, next) => {
     Inventory.find().exec().then(docs => {

@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "a171390e-8507-4f21-94a1-dab1c03953a2",
+      "name": "hoangndgcs2",
+      "email": "hoangndgcs18384@gmail.com",
+      "password": "$2b$10$9tCB3MdlXj0jYOjnOD9mI.NP4Ky2CNeUl/77Tqq4i82hYafRm58b6",
+      "userImage": "uploads\\1698513731841Screenshot 2023-10-05 211625.png"
+    },
+    {
+      "id": "3ae9cab1-eca6-41c7-9a1e-6f003b42f333",
+      "name": "hoangndgcs2",
+      "email": "hoangndgcs18383@gmail.com",
+      "password": "$2b$10$ikKS8DplKhawuJ2ggbEKye.lAE.GMvZ66e9SnpUq9HB4f8JOL3rlS",
+      "userImage": "uploads\\1698514274793Screenshot 2023-10-05 211625.png"
+    }
+  ]
+}

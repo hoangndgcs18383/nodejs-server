@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 
 
 app.use('/users', userRoutes);
-///app.use('/inventories', inventoryRoutes);
+app.use('/inventories', inventoryRoutes);
 
 // app.use((req, res, next) => {
 //     const error = new Error("Not found");
